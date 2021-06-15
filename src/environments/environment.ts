@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: 'http://localhost:8018/poc/'
+  url: 'https://raw.githubusercontent.com/programadriano/ionic-update-verision/master/src/assets/'
 };
 
 /*
