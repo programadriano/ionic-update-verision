@@ -25,9 +25,9 @@ export class UpdateService {
       if (info.habilitado && info.numeroDaVersao.split('.')[2] > versao.split('.')[2]) {
 
         const alert = await this.alertController.create({
-          header: 'CONFIRMA',
+          header: 'Atualização',
           subHeader: '',
-          message: `Tem uma nova versão na loja \n Deseja atualizar?`,
+          message: `Tem uma nova versão do APP na loja \n Deseja atualizar?`,
           buttons: [
             {
               text: 'Não',
